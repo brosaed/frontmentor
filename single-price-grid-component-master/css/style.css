@@ -25,7 +25,8 @@ section {
     padding: 0px 0px; 
     background-color: #ffffff;
     border-radius: 5px;
- 
+    
+    
 }
 
 .container {
@@ -51,8 +52,7 @@ section {
 }
 h2 {
     color:hsl(179, 62%, 43%);
-   line-height: normal;
-   
+    line-height: normal;
 }
 
 ul {
@@ -85,7 +85,6 @@ h4 {
 p {
     margin:0;
 }
-
 #p1 {
     color:#727272;
     font-weight: 400;
@@ -106,7 +105,12 @@ span {
     font-size: 35px;
     font-weight: 700;
 }
-button {
+
+a {
+    text-decoration: none;
+}
+
+.button {
     padding: 13px 100px;
     background-color: hsl(71, 73%, 54%);
     border: none;
@@ -123,8 +127,7 @@ button {
 }
 
 /* Responsive size */
-
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 
     section {
         width: 90vw;
@@ -135,7 +138,6 @@ button {
         overflow: hidden;
         padding: 0px 0px; 
         background-color: #ffffff;
-       
         
         
     }
@@ -144,7 +146,6 @@ button {
         width: 100%;
         padding: 10px 20px;
         
-    
     }
 
     .box-2 {
@@ -158,23 +159,24 @@ button {
     .container {
         background-color: #ffffff;
         padding: 15px;
+        
     }
     
-    button {
+    .button {
         padding: 13px 100px;
         background-color: hsl(71, 73%, 54%);
         border: none;
         color: #ffffff;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Karla', sans-serif;
         font-weight: 400;
         border-radius: 4px;
         display: inline-block;
         margin-top: 40px;
-    
+       
     }
-    
+
     #p1 {
         line-height: 1.8rem;
         font-size: 15px;
@@ -183,7 +185,3 @@ button {
     }
     
 }
-
-
-
-
