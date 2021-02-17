@@ -65,12 +65,11 @@ ul {
 }
 .box-2 ul li {
     list-style: none;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 h3 {
     color:hsl(71, 73%, 54%);
-    font-size: 18px;
-    margin: 0;
+    margin-bottom: 15px;
 }
 
 .attribution { 
