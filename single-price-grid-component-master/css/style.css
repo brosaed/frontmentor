@@ -6,7 +6,7 @@
 }
 
 body {
-   background-color:hsl(204, 43%, 93%);
+    background-color:hsl(204, 43%, 93%);
     margin: 0;
     padding: 0;
     font-size: 17px;
@@ -38,7 +38,6 @@ section {
     float: left;
     background-color: hsl(179, 62%, 43%);
     padding: 30px 30px;
-    
 
 }
 
@@ -55,8 +54,6 @@ h2 {
    line-height: normal;
    
 }
-
-
 
 ul {
     margin:0;
@@ -91,7 +88,6 @@ p {
 
 #p1 {
     color:#727272;
-    line-height: 1.5em;
     font-weight: 400;
     line-height: 1.8rem;
     font-size: 18px;
@@ -125,6 +121,8 @@ button {
     margin-bottom: 11px;
 
 }
+
+/* Responsive size */
 
 @media screen and (max-width: 1100px) {
 
